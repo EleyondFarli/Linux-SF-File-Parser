@@ -307,8 +307,8 @@ int listTree(char* dirName, int hasPermWrite, char* nameStartString, int searchF
             }
         }
 	}
-    return 0;
 	closedir(dir);
+    return 0;
 }
 
 int listFiles(int argc, char* argv[])
